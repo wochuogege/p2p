@@ -1,0 +1,15 @@
+{
+  "name": "p2p-chat-signaling-server",
+  "version": "1.0.0",
+  "description": "Signaling server for P2P chat using Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

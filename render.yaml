@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: p2p-chat-signaling
+    env: node
+    repo: https://github.com/your-repo/p2p-chat # 替换为你的仓库URL
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    plan: free
+    autoDeploy: true
